@@ -10,11 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Gamja+Flower|Josefin+Sans|Kalam|Nunito|Pacifico|Satisfy" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js" ></script>
     <script src="js/popper.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Title -->
     <title>Bootstrap Template</title>
@@ -95,22 +97,22 @@
 
           <div class="row text-center pb-5">
             <div class="col-sm-2"></div>
-            <div class="col-sm-2">
+            <div class="col-sm-2"  data-aos="fade-down" data-aos-anchor-placement="center-bottom">
                 <p><i class="fas fa-user" style="font-size: 65px; color:rgb(179, 147, 102)"></i></p>
                 <p class="pb-1 subtitle">Registrations</p>
                 <p class="pb-2 sub">We register over 250,000 pedigree dogs and crossbreed dogs a year.</p>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2" data-aos="fade-down"  data-aos-anchor-placement="center-bottom">
                 <p><i class="fas fa-medkit"  style="font-size: 65px; color:rgb(179, 147, 102)"></i></p>
                 <p class="pb-1 subtitle">Health</p>
                 <p class="pb-2 sub">We register over 250,000 pedigree dogs and crossbreed dogs a year.</p>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2" data-aos="fade-down"  data-aos-anchor-placement="center-bottom">
                 <p><i class="fas fa-paper-plane" style="font-size: 65px; color:rgb(179, 147, 102)"></i></p>
                 <p class="pb-1 subtitle">Event</p>
                 <p class="pb-2 sub">We register over 250,000 pedigree dogs and crossbreed dogs a year.</p>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2" data-aos="fade-down"  data-aos-anchor-placement="center-bottom">
                 <p><i class="fas fa-hand-holding-heart" style="font-size: 65px; color:rgb(179, 147, 102)"></i></p>
                 <p class="pb-1 subtitle">Donate</p>
                 <p class="pb-2 sub">We register over 250,000 pedigree dogs and crossbreed dogs a year.</p>
@@ -126,21 +128,23 @@
         <div class="col-md-5 pl-5" style="overflow:hidden; width: 80%">
           <img src="img/dog1.jpg" class="img-fluid d-block position-relative ml-5" alt="dog2">
         </div>
-        <div class="col-md-5 mt-5 pt-5">
+        <div class="col-md-5 mt-5 pt-5"  data-aos="zoom-in-left" data-aos-anchor-placement="center-bottom" >
             <div class="w-100 title pb-3">
                 <div class="s1-title" >
                     <img src="./img/pet-house.svg" width="48" alt="pet-house" class="d-inline-block mb-3 "/>
                     <p class="d-inline">Save a life adopt a pet</p>
                 </div>
             </div>
-            <div class="w-100 head-text pb-4 text-justify">
-              <div style="width: 85%">If you’re flying solo, sharing your home with a dog may add a few years to your life. Breeding a litter of puppies can be very rewarding.</div></div>
-            <div class="w-100 des-text3">
-                <div style="width: 85%">There are so many different competitive dog activities you can enjoy, 
-                giving you great opportunities to meet fellow dog lovers and enjoy lots of fun with your dog.</div></div>
-            <div class="w-100 mt-4 mb-5">
-                <a href="#" class="btn2 btn-lg btn-outline-light mx-auto">Find More</a>
-            </div>
+        
+              <div class="w-100 head-text pb-4 text-justify">
+                <div style="width: 85%">If you’re flying solo, sharing your home with a dog may add a few years to your life. Breeding a litter of puppies can be very rewarding.</div></div>
+              <div class="w-100 des-text3">
+                  <div style="width: 85%">There are so many different competitive dog activities you can enjoy, 
+                  giving you great opportunities to meet fellow dog lovers and enjoy lots of fun with your dog.</div></div>
+              <div class="w-100 mt-4 mb-5">
+                  <a href="#" class="btn2 btn-lg btn-outline-light mx-auto">Find More</a>
+              </div>
+          
         </div>
         <div class="col-md-1"></div>
       </div>
@@ -290,6 +294,9 @@
                     </div>
                 </footer>
      </div>
-    
+     
+     <script>
+       AOS.init();
+     </script>
   </body>
 </html>
