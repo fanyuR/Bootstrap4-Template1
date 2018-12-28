@@ -5,6 +5,11 @@
     background-size: cover;
 }
 
+.wrap{
+    min-width:100%;
+    overflow-x:hidden;
+}
+
 .section1{
     /* min-height: 450px; */
     background-image: url(../img/bg1.jpg);  
@@ -201,7 +206,7 @@
 .form-control{
     border-radius: 40px;
     border:0;
-    width: 400px;
+    width: 350px;
 }
 
 .btn3{
