@@ -7,4 +7,4 @@ It supports responsive layout which makes the template renders well on various d
 ![](https://github.com/fanyuR/Bootstrap4-Template1/blob/master/template_screenshot.png)  
 
 ### Responsive layout on mobile devices
-![]()  
+![](https://github.com/fanyuR/Bootstrap4-Template1/blob/master/img/mobile.gif?raw=true")
